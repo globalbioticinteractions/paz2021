@@ -1,0 +1,152 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "toaa284_suppl_supplementary_materials.tsv",
+    "dcterms:bibliographicCitation" : "Fabricia Sousa Paz, Carlos Eduardo Pinto, Rafael Melo de Brito, Vera Lucia Imperatriz-Fonseca, Tereza Cristina Giannini, Edible Fruit Plant Species in the Amazon Forest Rely Mostly on Bees and Beetles as Pollinators, Journal of Economic Entomology, Volume 114, Issue 2, April 2021, Pages 710–722, https://doi.org/10.1093/jee/toaa284",
+    "delimiter" : "\t",
+    "interactionTypeName": "pollinatedBy",
+    "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002456",
+    "headerRowCount" : 1,
+    "null" : [ "" ],
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "Reference",
+        "titles" : "Reference",
+        "datatype" : "string"
+      }, {
+        "name" : "Family",
+        "titles" : "sourceTaxonFamilyName",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonName",
+        "titles" : "Scientific name",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonCommonName",
+        "titles" : "Vernacular name",
+        "datatype" : "string"
+      }, {
+        "name" : "Native/Exotic",
+        "titles" : "Native/Exotic",
+        "datatype" : "string"
+      }, {
+        "name" : "Habit",
+        "titles" : "Habit",
+        "datatype" : "string"
+      }, {
+        "name" : "Flowering (month)",
+        "titles" : "Flowering (month)",
+        "datatype" : "string"
+      }, {
+        "name" : "Syndrome",
+        "titles" : "Syndrome",
+        "datatype" : "string"
+      }, {
+        "name" : "Other usages",
+        "titles" : "Other usages",
+        "datatype" : "string"
+      }, {
+        "name" : "photo (book)",
+        "titles" : "photo (book)",
+        "datatype" : "string"
+      }, {
+        "name" : "photo (internet)",
+        "titles" : "photo (internet)",
+        "datatype" : "string"
+      }, {
+        "name" : "Pollinator quoted",
+        "titles" : "Pollinator quoted",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonName",
+        "titles" : "Pollinator species quoted",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceCitation",
+        "titles" : "References about pollinator",
+        "datatype" : "string"
+      } ]
+    }
+  },{
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "toaa284_suppl_supplementary_materials.tsv",
+    "dcterms:bibliographicCitation" : "Fabricia Sousa Paz, Carlos Eduardo Pinto, Rafael Melo de Brito, Vera Lucia Imperatriz-Fonseca, Tereza Cristina Giannini, Edible Fruit Plant Species in the Amazon Forest Rely Mostly on Bees and Beetles as Pollinators, Journal of Economic Entomology, Volume 114, Issue 2, April 2021, Pages 710–722, https://doi.org/10.1093/jee/toaa284",
+    "delimiter" : "\t",
+    "interactionTypeName": "eatenBy",
+    "sourceBodyPartName": "fruit",
+    "sourceBodyPartId": "http://purl.obolibrary.org/obo/PO_0009001",
+    "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002471",
+    "targetTaxonName": "Homo sapiens",
+    "headerRowCount" : 1,
+    "null" : [ "" ],
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "Reference",
+        "titles" : "Reference",
+        "datatype" : "string"
+      }, {
+        "name" : "Family",
+        "titles" : "sourceTaxonFamilyName",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonName",
+        "titles" : "Scientific name",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonCommonName",
+        "titles" : "Vernacular name",
+        "datatype" : "string"
+      }, {
+        "name" : "Native/Exotic",
+        "titles" : "Native/Exotic",
+        "datatype" : "string"
+      }, {
+        "name" : "Habit",
+        "titles" : "Habit",
+        "datatype" : "string"
+      }, {
+        "name" : "Flowering (month)",
+        "titles" : "Flowering (month)",
+        "datatype" : "string"
+      }, {
+        "name" : "Syndrome",
+        "titles" : "Syndrome",
+        "datatype" : "string"
+      }, {
+        "name" : "Other usages",
+        "titles" : "Other usages",
+        "datatype" : "string"
+      }, {
+        "name" : "photo (book)",
+        "titles" : "photo (book)",
+        "datatype" : "string"
+      }, {
+        "name" : "photo (internet)",
+        "titles" : "photo (internet)",
+        "datatype" : "string"
+      }, {
+        "name" : "Pollinator quoted",
+        "titles" : "Pollinator quoted",
+        "datatype" : "string"
+      }, {
+        "name" : "Pollinator species quoted",
+        "titles" : "Pollinator species quoted",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceCitation",
+        "titles" : "References about pollinator",
+        "datatype" : "string"
+      } ]
+    }
+  } ]
+}
